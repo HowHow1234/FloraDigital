@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
+  <!-- Background with gradient -->
+  <rect width="600" height="350" rx="12" fill="#1e1e1e" />
+  
+  <!-- Person silhouette -->
+  <circle cx="300" cy="140" r="60" fill="#6c5ce7" opacity="0.9" />
+  <rect x="270" y="200" width="60" height="100" rx="10" fill="#6c5ce7" opacity="0.9" />
+  
+  <!-- Arms -->
+  <rect x="200" y="210" width="70" height="20" rx="10" fill="#6c5ce7" opacity="0.8" transform="rotate(-15, 200, 210)" />
+  <rect x="330" y="210" width="70" height="20" rx="10" fill="#6c5ce7" opacity="0.8" transform="rotate(15, 330, 210)" />
+  
+  <!-- Ad cost display -->
+  <rect x="150" y="100" width="300" height="60" rx="5" fill="#2d2d2d" />
+  <text x="170" y="140" font-family="Arial" font-size="24" fill="white" font-weight="bold">$10,000/pm</text>
+  
+  <!-- Chart elements -->
+  <rect x="150" y="180" width="80" height="40" rx="5" fill="#2d2d2d" />
+  <text x="165" y="205" font-family="Arial" font-size="14" fill="white">CPC: $2.50</text>
+  
+  <rect x="260" y="180" width="80" height="40" rx="5" fill="#2d2d2d" />
+  <text x="275" y="205" font-family="Arial" font-size="14" fill="white">CTR: 3.2%</text>
+  
+  <rect x="370" y="180" width="80" height="40" rx="5" fill="#2d2d2d" />
+  <text x="385" y="205" font-family="Arial" font-size="14" fill="white">ROI: 250%</text>
+</svg>
