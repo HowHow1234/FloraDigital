@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
-            header.style.backgroundColor = 'rgba(18, 18, 18, 0.95)';
+            header.style.backgroundColor = 'var(--dark-bg)';
             header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
         } else {
-            header.style.backgroundColor = 'rgba(18, 18, 18, 0.95)';
+            header.style.backgroundColor = 'var(--dark-bg)';
             header.style.boxShadow = 'none';
         }
     });
